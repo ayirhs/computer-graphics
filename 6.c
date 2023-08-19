@@ -12,6 +12,10 @@ void main()
  
 
     clrscr();
+    printf("Shriya k");
+printf("\n");
+ printf("Roll no. 128");
+
 
     printf("\n\n\t Enter the no. of edges of polygon: ");
     scanf("%d", &n);
@@ -28,10 +32,7 @@ void main()
 
     detectgraph(&gd, &gm);
     initgraph(&gd, &gm, "C:\\TurboC3\\BGI");
-    printf("Shriya k");
-printf("\n");
- printf("Roll no. 128");
-
+   
     for (i = 0; i < n; i++)
     {
         line(a[i][0], a[i][1], a[i + 1][0], a[i + 1][1]);
